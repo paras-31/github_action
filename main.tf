@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "b" {
 
   tags = {
     Name        = "My bucket"
-    Environment = "Dev"
+    owner = "paras.kamboj@cloudeq.com"
   }
 }
 
